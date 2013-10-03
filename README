@@ -2,3 +2,9 @@ vcf-venn:
 A tool to compare variants contained within multiple vcf format files, to determine common and unique variants to each file.  To write these variants to a new file also in vcf format.
 
 vcf-venn.py is the script.
+
+To run:
+
+vcf-venn.py -p <prefix> -d <dir> -f <vcf1> -f <vcf2> ...
+
+At least 2 -f <vcf> must be specified
